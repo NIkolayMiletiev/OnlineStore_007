@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OnlineStore.css">
+    <title>All Products - Online Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- <div class="header"> -->
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+    <img src="/scr/public/images/logo.png" alt="logo" width="125px">
+    </div>
+    <nav>
+        <ul id="Menuitems">
+            <li><a href="#">Начало </a></li>
+            <li><a href="#">Продуктии </a></li>
+            <li><a href="#">За Нас </a></li>
+            <li><a href="#">Контакти </a></li>
+            <li><a href="#">Account </a></li>
+        </ul>
+    </nav>
+    <img src="/scr/public/images/cart.png" alt="cart" width="30px" height="30px">
+    <img src="/scr/public/images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle ()"> 
+
+    </div>
+    </div>
+<!-- </div> -->
+    
+    <div class="small-container">
+        <div class="row">
+            <h2>Всички продукти</h2>
+            <select name="" id="">
+             <option value="">Сортирай по цена</option>
+             <option value="">Сортирай по рейтинг</option>
+             <option value="">Сортирай по популярност</option>
+             <option value="">Най-продавани</option>
+            </select>
+        </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="/scr/public/images/product-1.jpg" alt="pr1">
+            <h4> Червена Тениска Пума</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 35.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-2.jpg" alt="pr1">
+            <h4> Спортни Кецове  HRX Черни</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-3.jpg" alt="pr1">
+            <h4> Мъжки Панталон</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 20.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-4.jpg" alt="pr1">
+            <h4> Тъмно синя Тениска Пума</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="/scr/public/images/product-1.jpg" alt="pr1">
+            <h4> Червена Тениска Пума</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 35.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-2.jpg" alt="pr1">
+            <h4> Спортни Кецове  HRX Черни</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-3.jpg" alt="pr1">
+            <h4> Мъжки Панталон</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 20.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-4.jpg" alt="pr1">
+            <h4> Тъмно синя Тениска Пума</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+    </div>
+    </div>
+
+    <h2 class="title"> Нови Налични Продукт</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/scr/public/images/product-5.jpg" alt="pr1">
+            <h4> Спортни Високи Кецове Сиви </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 35.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-6.jpg" alt="pr1">
+            <h4>Черна Тениска Пума </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-7.jpg" alt="pr1">
+            <h4> Мъжки Чорапи 3 чифта</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>10.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-8.jpg" alt="pr1">
+            <h4> Черен Часовник Фосил</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 20.00 лв.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="/scr/public/images/product-9.jpg" alt="pr1">
+            <h4> Черен Часовник Фосил с дата </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 35.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-10.jpg" alt="pr1">
+            <h4>Черна Спортни Маратонки </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p> 25.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-11.jpg" alt="pr1">
+            <h4> Мъжки Маратонки Сиви</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>20.00 лв.</p>
+        </div>
+        <div class="col-4">
+            <img src="/scr/public/images/product-12.jpg" alt="pr1">
+            <h4> Черен Екип Найк</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p> 30.00 лв.</p>
+        </div>
+    </div>
+    
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4 </span>
+        <span> &#8594</span>
+    </div>
+    </div>
+
+
+<!-- footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Свали нашето приложение</h3>
+                <p>  Можеш да свалиш приложението от App Store and Google Play.</p>
+            <div class="app-logo">
+                <img src="/scr/public/images/play-store.png" alt="">
+                <img src="/scr/public/images/app-store.png" alt="">
+            </div>
+
+            </div>
+                
+               <div class="footer-col-2">
+                   <img src="/scr/public/images/logo-white.png" >
+                <p>Нашата мисия е да направим пазаруването възможно най-лесно и удобно за вас!</p>
+                </div>
+                <div class="footer-col-3">
+               <h3>Полезни Линкове</h3>
+                <ul>
+                    <li>Купони</li>
+                    <li>Нашите Социални Канали</li>
+                    <li>Политика за Връщане</li>
+                </ul>
+                <p>  Можеш да свалиш приложението от App Store and Google Play.</p>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Намери ни в социалните медии</h3>
+                  <ul>
+                      <li>Фейсбук </li>
+                      <li>Туитър</li>
+                      <li>Инстаграм</li>
+                  </ul>
+              </div>
+           </div>
+            <hr>
+            <p class="copyright"> Авторски права - Николай Милетиев 2021 </p>
+        </div>
+    </div>
+
+    <!-- JS for Toggle menu -->
+    <script>
+        var menuItems = document.getElementById ("Menuitems");
+
+        menuItems.style.maxHeight = "0px";
+        
+        function menutoggle () {
+            if( menuItems.style.maxHeight == "0px")
+            {
+             menuItems.style.maxHeight = "200px";
+            }
+            else {
+            menuItems.style.maxHeight = "0px";
+        }
+    }
+    </script>
+</body>
+</html>
